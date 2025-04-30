@@ -1,86 +1,37 @@
-# Noob Restaurant Website
+# 🍽️ Noob Restaurant Management System with Admin Panel
 
-A modern, responsive restaurant website with admin panel for managing menu items, testimonials, and feedback.
+A complete **Restaurant Management System** built in **PHP and MySQL** with a stylish **Admin Panel** that allows admins to manage menu items, categories, customer feedback, and testimonials with ease.
 
-## Features
 
-- Responsive design for all devices
-- Dynamic menu with categories
-- Customer testimonials
-- Contact form with feedback system
-- Admin panel for content management
-- Multi-language support (English and Amharic)
+## ✨ Features
 
-## Requirements
+### 🛠 Admin Dashboard
+- Stylish and responsive UI using Bootstrap
+- View total counts and recent activity
+- Navigation to manage core modules
 
-- PHP 7.4 or higher
-- MySQL 5.7 or higher
-- Apache/Nginx web server
-- mod_rewrite enabled (for Apache)
+### 📋 Menu Items Management
+- Add, update, delete food items
+- Assign food items to categories
+- Upload and display item images
 
-## Installation
+### 📂 Categories
+- Organize menu items under different categories
+- Add/Edit/Delete category sections
 
-1. Upload all files to your web server
-2. Create a MySQL database
-3. Import the `database.sql` file to create the necessary tables
-4. Update the database connection details in `config.php`:
-   ```php
-   define('DB_HOST', 'your_db_host');
-   define('DB_USER', 'your_db_username');
-   define('DB_PASS', 'your_db_password');
-   define('DB_NAME', 'your_db_name');
-   ```
-5. Set proper permissions for upload directories:
-   ```
-   chmod 755 assets/img/menu
-   chmod 755 assets/img/testimonials
-   ```
+### 💬 Customer Testimonials
+- Manage and approve user testimonials
+- Display recent testimonials
+- Filter pending testimonials
 
-## Admin Panel
+### 📧 Feedback Section
+- Receive and read feedback messages
+- Track unread messages
 
-Access the admin panel at: `your-domain.com/admin`
+### ⚙️ Settings
+- Edit Social media links and Phone no and Some infos
 
-Default admin credentials:
-- Username: admin
-- Password: admin123
+### 🧾 Activity Log
+- Track recent activities like new testimonials or feedback
 
-**Important:** Change the default password after first login.
 
-## Directory Structure
-
-```
-/
-├── admin/                  # Admin panel files
-│   ├── includes/           # Admin includes (header, footer, etc.)
-│   ├── assets/             # Admin-specific assets
-│   └── *.php               # Admin pages
-├── assets/                 # Frontend assets
-│   ├── css/                # Stylesheets
-│   ├── js/                 # JavaScript files
-│   ├── fonts/              # Font files
-│   └── img/                # Images
-│       ├── menu/           # Menu item images
-│       └── testimonials/   # Testimonial images
-├── config.php              # Configuration file
-├── database.sql            # Database structure and sample data
-├── index.php               # Homepage
-├── menu.php                # Menu page
-├── contact.php             # Contact page
-└── submit_feedback.php     # Feedback submission handler
-```
-
-## Security Considerations
-
-1. Change default admin credentials
-2. Keep PHP and all dependencies updated
-3. Use HTTPS for secure data transmission
-4. Regularly backup your database
-5. Implement proper input validation and sanitization
-
-## Support
-
-For support, please contact [your-email@example.com]
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
