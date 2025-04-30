@@ -1,0 +1,162 @@
+/* Admin Panel Styles */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --light-gray: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+}
+
+/* Sidebar Styles */
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: var(--primary-color);
+    color: #fff;
+    transition: all 0.3s;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: var(--secondary-color);
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a:hover {
+    background: var(--accent-color);
+}
+
+#sidebar ul li.active > a {
+    background: var(--accent-color);
+}
+
+/* Content Styles */
+#content {
+    width: calc(100% - 250px);
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 0;
+    border: 1px solid var(--border-color);
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: none;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Table Styles */
+.table {
+    background-color: #fff;
+}
+
+.table thead th {
+    border-bottom: 2px solid var(--border-color);
+    font-weight: 600;
+}
+
+/* Flash Message Styles */
+.alert {
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+} 

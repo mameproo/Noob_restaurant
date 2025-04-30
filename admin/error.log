@@ -1,0 +1,77 @@
+[20-Apr-2025 08:54:52 Europe/Berlin] Login attempt - Username: admin
+[20-Apr-2025 08:54:52 Europe/Berlin] User found - Role: admin
+[20-Apr-2025 08:54:52 Europe/Berlin] Password verified successfully
+[20-Apr-2025 08:54:52 Europe/Berlin] Login successful - Redirecting to admin panel
+[20-Apr-2025 09:06:35 Europe/Berlin] PHP Fatal error:  Cannot redeclare setFlashMessage() (previously declared in C:\xampp\htdocs\Noob_restaurant\config.php:138) in C:\xampp\htdocs\Noob_restaurant\admin\functions.php on line 13
+[20-Apr-2025 10:05:17 Europe/Berlin] Login attempt - Username: admin
+[20-Apr-2025 10:05:17 Europe/Berlin] User found - Role: admin
+[20-Apr-2025 10:05:17 Europe/Berlin] Password verified successfully
+[20-Apr-2025 10:05:17 Europe/Berlin] Login successful - Redirecting to admin panel
+[20-Apr-2025 10:23:51 Europe/Berlin] Login attempt - Username: admin
+[20-Apr-2025 10:23:51 Europe/Berlin] User found - Role: admin
+[20-Apr-2025 10:23:51 Europe/Berlin] Password verified successfully
+[20-Apr-2025 10:23:51 Europe/Berlin] Login successful - Redirecting to admin panel
+[20-Apr-2025 10:30:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_settings() in C:\xampp\htdocs\Noob_restaurant\admin\send_reply.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\send_reply.php on line 24
+[20-Apr-2025 10:37:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function is_current_page() in C:\xampp\htdocs\Noob_restaurant\admin\index.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 65
+[20-Apr-2025 10:37:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function is_current_page() in C:\xampp\htdocs\Noob_restaurant\admin\index.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 65
+[20-Apr-2025 10:37:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function is_current_page() in C:\xampp\htdocs\Noob_restaurant\admin\index.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 65
+[20-Apr-2025 10:43:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'noob_restaurant.system_logs' doesn't exist in C:\xampp\htdocs\Noob_restaurant\admin\includes\auth.php:38
+Stack trace:
+#0 C:\xampp\htdocs\Noob_restaurant\admin\includes\auth.php(38): mysqli_prepare(Object(mysqli), 'INSERT INTO sys...')
+#1 C:\xampp\htdocs\Noob_restaurant\admin\category_add.php(43): log_admin_action('Added new menu ...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\includes\auth.php on line 38
+[20-Apr-2025 10:54:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_settings() in C:\xampp\htdocs\Noob_restaurant\admin\send_reply.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\send_reply.php on line 24
+[20-Apr-2025 11:48:15 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\Noob_restaurant\admin\admin_profile.php on line 88
+[20-Apr-2025 11:48:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'noob_restaurant.admins' doesn't exist in C:\xampp\htdocs\Noob_restaurant\admin\admin_profile.php:90
+Stack trace:
+#0 C:\xampp\htdocs\Noob_restaurant\admin\admin_profile.php(90): mysqli_prepare(Object(mysqli), 'SELECT * FROM a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\admin_profile.php on line 90
+[20-Apr-2025 11:49:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function log_admin_action() in C:\xampp\htdocs\Noob_restaurant\admin\login.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\login.php on line 40
+[20-Apr-2025 11:51:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function log_admin_action() in C:\xampp\htdocs\Noob_restaurant\admin\login.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\login.php on line 40
+[20-Apr-2025 11:51:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function log_admin_action() in C:\xampp\htdocs\Noob_restaurant\admin\login.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\login.php on line 40
+[20-Apr-2025 11:54:15 Europe/Berlin] Login attempt - Username: admin
+[20-Apr-2025 11:54:15 Europe/Berlin] User found - Role: admin
+[20-Apr-2025 11:54:15 Europe/Berlin] Password verified successfully
+[20-Apr-2025 11:54:15 Europe/Berlin] Login successful - Redirecting to admin panel
+[20-Apr-2025 12:11:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_settings() in C:\xampp\htdocs\Noob_restaurant\admin\send_reply.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Noob_restaurant\admin\send_reply.php on line 24
+[26-Apr-2025 08:05:38 Europe/Berlin] Login attempt - Username: admin
+[26-Apr-2025 08:05:38 Europe/Berlin] User found - Role: admin
+[26-Apr-2025 08:05:38 Europe/Berlin] Password verified successfully
+[26-Apr-2025 08:05:38 Europe/Berlin] Login successful - Redirecting to admin panel
+[26-Apr-2025 09:01:30 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 74
+[26-Apr-2025 09:01:37 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 74
+[26-Apr-2025 09:01:47 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 74
+[26-Apr-2025 09:01:53 Europe/Berlin] PHP Warning:  Undefined variable $current_page in C:\xampp\htdocs\Noob_restaurant\admin\index.php on line 74
+[30-Apr-2025 10:26:12 Europe/Berlin] Login attempt - Username: admin
+[30-Apr-2025 10:26:12 Europe/Berlin] User found - Role: admin
+[30-Apr-2025 10:26:12 Europe/Berlin] Password verified successfully
+[30-Apr-2025 10:26:12 Europe/Berlin] Login successful - Redirecting to admin panel

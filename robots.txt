@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /index.php
+Allow: /menu.php
+Allow: /contact.php
+Allow: /about.php
+Allow: /service.php
+Allow: /testimonial.php
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /assets/js/
+
+Disallow: /admin/
+Disallow: /config.php
+Disallow: /database.sql
+Disallow: /submit_feedback.php
+Disallow: /submit_testimonial.php
+Disallow: /404.php
+Disallow: /403.php
+Disallow: /500.php
+Disallow: /.htaccess
+Disallow: /README.md
+
+Sitemap: https://your-domain.com/sitemap.xml 
